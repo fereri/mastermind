@@ -25,7 +25,7 @@ class Game
             @player_code[p_index] = p_color
 
           elsif (color == p_color) and (index != p_index)
-            puts "The color #{p_color} is correct but in the wrong position.".colorize(:red)
+            puts "The color #{p_color} is correct but in the wrong position.".colorize(:yellow)
           end
         end
       end

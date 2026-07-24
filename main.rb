@@ -1,3 +1,3 @@
 require_relative "lib/game"
 
-Game.compare(Guess.color_code)
+Game.compare(Guess.choice)
