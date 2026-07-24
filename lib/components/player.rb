@@ -1,10 +1,6 @@
 class Player
-  
-  def initialize(n)
-    @name = n
-  end
 
-  def self.guess
+  def player_guess
     @array = []
 
     4.times do

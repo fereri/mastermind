@@ -5,3 +5,4 @@ source "https://rubygems.org"
 # gem "rails"
 
 gem "ruby-lsp", require: false
+gem "colorize", require: false
